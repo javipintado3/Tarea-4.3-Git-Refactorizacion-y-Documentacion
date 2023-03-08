@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Clase que hereda de la clase AgrupacionOficial, se
- * utiliza para crear agrupaciones oficiales, implementa 
+ * utiliza para crear Chirigotas, implementa 
  * la interfaz Callejera
  * @author JavierPintado
  * @version 1.1
@@ -25,7 +25,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 	
 	/**
-	 * Constructor con 6 parametros
+	 * Constructor con 7 parametros
 	 * Crea objetos heredados del constructor de tipo AgrupacionOfical con
 	 * con nombre, autor , autorMusica, autorLetra, tipo disfraz, puntos obtenidos
 	 * y crea objetos tipo Chirigota con numCuples
