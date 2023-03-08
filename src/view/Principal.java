@@ -4,14 +4,26 @@ import controller.Coac;
 import model.Coro;
 import model.Romancero;
 
+/**
+ * <h2>Clase Principal del proyecto</h2>
+ * @author JavierPintado
+ * @version 1.1
+ */
 public class Principal {
 	
 	public static Coac coac = new Coac(10);
 
+	/**
+	 * Metodo main
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		gestionPrograma();
 	}
 
+	/**
+	 * Metodo para gestionar el programa
+	 */
 	private static void gestionPrograma() {
 		int opc;
 		do {
@@ -25,7 +37,9 @@ public class Principal {
 		finDelPrograma();
 	}
 
-	
+	/**
+	 * Metodo para ordenar los puntos
+	 */
 	private static void ordenarPorPuntos() {
 		
 		/*
@@ -48,7 +62,10 @@ public class Principal {
 		*/
 
 	}
-
+	
+	/**
+	 * Metodo para mostrar el menu principal
+	 */
 	private static void mostrarMenuPrincipal() {
 		Util.escribir("\n");
 		Util.escribir("╔═══════════════════════════════════╗");
@@ -74,7 +91,9 @@ public class Principal {
 	
 	
 	
-
+	/**
+	 * Metodo para mostrar el fin del programa
+	 */
 	private static void finDelPrograma() {
 		Util.escribir("\nFin del programa.");
 		System.exit(0);

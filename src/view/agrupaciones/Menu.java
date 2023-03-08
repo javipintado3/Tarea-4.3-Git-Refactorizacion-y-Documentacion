@@ -3,7 +3,10 @@ package view.agrupaciones;
 import view.Util;
 
 public class Menu {
-
+	
+	/**
+	 * Metodo para obtener el menu agrupacion
+	 */
 	public static void opcGetAgrupacion() {
 		int opc; 
 		String pregunta;
@@ -21,6 +24,9 @@ public class Menu {
 		}while (opc != 0);
 	}
 	
+	/**
+	 * Metodo mostrar el menu agrupacion
+	 */
 	private static void mostrarMenuGetAgrupacion() {
 		Util.escribir("\n");
 		Util.escribir("╔═══════════════════════════════════╗");

@@ -3,7 +3,10 @@ package view.participantes;
 import view.Util;
 
 public class Menu {
-
+	
+	/**
+	 * Metodo para obtener el menu Integrantes
+	 */
 	public static void opcIntegrantes() {
 		int opc;
 		do {
@@ -21,7 +24,9 @@ public class Menu {
 	}
 	
 
-
+	/**
+	 * Metodo para mostrar el menu Integrantes
+	 */
 	private static void mostrarMenuIntegrantes() {
 		Util.escribir("\n");
 		Util.escribir("┌──────────────────────────┐");

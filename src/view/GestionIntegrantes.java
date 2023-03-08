@@ -3,8 +3,6 @@ package view;
 public class GestionIntegrantes {
 
 
-	
-
 	private static void ordenarPorNombre() {
 		
 	}
