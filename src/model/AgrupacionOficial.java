@@ -38,7 +38,7 @@ public abstract class AgrupacionOficial extends Agrupacion  {
 		integrantes = new Integrante[MAX_INT];
 	}
 	/**
-	 * Constructor con 5 parametros
+	 * Constructor con 6 parametros
 	 * Crea objetos heredados del constructor de tipo Agrupacion con
 	 * con nombre, autor , autorMusica, autorLetra y el tipo disfraz, 
 	 * y crea objetos tipo AgrupacionOficial con los puntos obtenidos
