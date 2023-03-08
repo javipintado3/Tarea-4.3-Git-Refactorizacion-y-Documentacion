@@ -3,8 +3,8 @@ package model;
 import java.util.Arrays;
 
 /**
- * Clase que hereda de la clase AgrupacionOficial, se
- * utiliza para crear Coros
+ * <h2>Clase que hereda de la clase AgrupacionOficial, se
+ * utiliza para crear Coros</h2>
  * @author JavierPintado
  * @version 1.1
  *

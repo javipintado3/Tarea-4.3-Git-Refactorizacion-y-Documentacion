@@ -2,8 +2,8 @@ package model;
 
 
 /**
- * Clase abstracta que hereda de la clase Agrupacion, se
- * utiliza para crear agrupaciones oficiales
+ * <h2>Clase abstracta que hereda de la clase Agrupacion, se
+ * utiliza para crear agrupaciones oficiales</h2>
  * @author JavierPintado
  * @version 1.1
  *

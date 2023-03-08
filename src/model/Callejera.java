@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Interfaz Callejera con un metodo
+ * <h2>Interfaz Callejera con un metodo</h2>
  * @author JavierPintado
  * @version 1.1
  *

@@ -3,9 +3,9 @@ package model;
 import java.util.Arrays;
 
 /**
- * Clase que hereda de la clase AgrupacionOficial, se
+ * <h2>Clase que hereda de la clase AgrupacionOficial, se
  * utiliza para crear Chirigotas, implementa 
- * la interfaz Callejera
+ * la interfaz Callejera</h2>
  * @author JavierPintado
  * @version 1.1
  *

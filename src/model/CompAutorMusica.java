@@ -3,8 +3,8 @@ package model;
 import java.util.Comparator;
 
 /**
- * Clase comparadora que implementa la interfaz
- * Comparable seleccionando la clase Agrupacion
+ * <h2>Clase comparadora que implementa la interfaz
+ * Comparable seleccionando la clase Agrupacion</h2>
  * @author JavierPintado
  * @version 1.1
  *
