@@ -3,12 +3,12 @@ package view.agrupaciones;
 import view.Util;
 
 public class Menu {
-	
+
 	/**
 	 * Metodo para obtener el menu agrupacion
 	 */
 	public static void opcGetAgrupacion() {
-		int opc; 
+		int opc;
 		String pregunta;
 		do {
 			mostrarMenuGetAgrupacion();
@@ -20,10 +20,10 @@ public class Menu {
 			case 4 -> Opcion.getCuarteto();
 			case 5 -> Opcion.getRomancero();
 			}
-			
-		}while (opc != 0);
+
+		} while (opc != 0);
 	}
-	
+
 	/**
 	 * Metodo mostrar el menu agrupacion
 	 */

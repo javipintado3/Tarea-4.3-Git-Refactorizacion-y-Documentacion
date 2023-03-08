@@ -3,7 +3,7 @@ package view.participantes;
 import view.Util;
 
 public class Menu {
-	
+
 	/**
 	 * Metodo para obtener el menu Integrantes
 	 */
@@ -22,7 +22,6 @@ public class Menu {
 			}
 		} while (opc != 0);
 	}
-	
 
 	/**
 	 * Metodo para mostrar el menu Integrantes

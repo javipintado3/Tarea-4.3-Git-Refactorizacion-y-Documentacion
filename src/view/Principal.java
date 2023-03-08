@@ -6,15 +6,17 @@ import model.Romancero;
 
 /**
  * <h2>Clase Principal del proyecto</h2>
+ * 
  * @author JavierPintado
  * @version 1.1
  */
 public class Principal {
-	
+
 	public static Coac coac = new Coac(10);
 
 	/**
 	 * Metodo main
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -41,28 +43,17 @@ public class Principal {
 	 * Metodo para ordenar los puntos
 	 */
 	private static void ordenarPorPuntos() {
-		
+
 		/*
-		Coac c = new Coac(4, 1000);
-		Romancero c1 = new Romancero();
-		c.agrupacion[0] = c1;
-		Coro c2 = new Coro();
-		c2.setPuntosObt(5);
-		c.agrupacion[1] = c2;
-		Coro c3 = new Coro();
-		c3.setPuntosObt(15);
-		c.agrupacion[2] = c3;
-		Coro c4 = new Coro();
-		c4.setPuntosObt(2);
-		c.agrupacion[3] = c4;
-		c.ordenar_por_puntos();
-		for (int i= 0; i<4; i++) {
-			System.out.println(c.agrupacion[i]);
-		}
-		*/
+		 * Coac c = new Coac(4, 1000); Romancero c1 = new Romancero(); c.agrupacion[0] =
+		 * c1; Coro c2 = new Coro(); c2.setPuntosObt(5); c.agrupacion[1] = c2; Coro c3 =
+		 * new Coro(); c3.setPuntosObt(15); c.agrupacion[2] = c3; Coro c4 = new Coro();
+		 * c4.setPuntosObt(2); c.agrupacion[3] = c4; c.ordenar_por_puntos(); for (int i=
+		 * 0; i<4; i++) { System.out.println(c.agrupacion[i]); }
+		 */
 
 	}
-	
+
 	/**
 	 * Metodo para mostrar el menu principal
 	 */
@@ -88,9 +79,7 @@ public class Principal {
 		Util.escribir(" 13. Ordenar por el autor.");
 		Util.escribir(" 14. Ordenar por el autor de música/letra.");
 	}
-	
-	
-	
+
 	/**
 	 * Metodo para mostrar el fin del programa
 	 */

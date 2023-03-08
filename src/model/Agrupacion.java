@@ -1,8 +1,9 @@
 package model;
 
 /**
- * <h2>Clase Abstracta Agrupacion con la interfaz Comprable, se utiliza para 
- * crear agrupaciones</h2> 
+ * <h2>Clase Abstracta Agrupacion con la interfaz Comprable, se utiliza para
+ * crear agrupaciones</h2>
+ * 
  * @author JavierPintado
  * @version 1.1
  *
@@ -30,25 +31,25 @@ public abstract class Agrupacion implements Comparable<Agrupacion> {
 	private String tipoDisfraz;
 	private Integer agrupacionesTotales;
 	private static Integer cont = 1;
-	
+
 	/**
-	 * Constructor por defecto
-	 * Aumenta el contador de las agrupaciones totales
+	 * Constructor por defecto Aumenta el contador de las agrupaciones totales
 	 */
 	public Agrupacion() {
 		setAgrupacionesTotales(cont++);
 	}
-	
+
 	/**
-	 * Constructor con 5 parametros
-	 * Crea objetos agrupacion, con nombre, autor , autorMusica, autorLetra y el tipo disfraz
-	 * @param nombre <i>Nombre de la agrupacion</i>
-	 * @param autor <i>autor de la agrupacion</i>
+	 * Constructor con 5 parametros Crea objetos agrupacion, con nombre, autor ,
+	 * autorMusica, autorLetra y el tipo disfraz
+	 * 
+	 * @param nombre      <i>Nombre de la agrupacion</i>
+	 * @param autor       <i>autor de la agrupacion</i>
 	 * @param autorMusica <i>autor de la musica de la agrupacion</i>
-	 * @param autorLetra <i>autor de la letra de la agrupacion</i>
+	 * @param autorLetra  <i>autor de la letra de la agrupacion</i>
 	 * @param tipoDisfraz <i>tipo de disfraz de la agrupacion</i>
 	 */
-	public Agrupacion(String nombre, String autor, String autorMusica, String autorLetra, String tipoDisfraz ) {
+	public Agrupacion(String nombre, String autor, String autorMusica, String autorLetra, String tipoDisfraz) {
 		setAgrupacionesTotales(cont++);
 		setNombre(nombre);
 		setAutor(autor);
@@ -56,23 +57,26 @@ public abstract class Agrupacion implements Comparable<Agrupacion> {
 		setAutorLetra(autorLetra);
 		setTipoDisfraz(tipoDisfraz);
 	}
-	
-	//Metodos publicos
-	
+
+	// Metodos publicos
+
 	/**
 	 * Metodo abstracto que heredan todas las clases hijas
 	 * 
-	 * @return <ul>
-	 * 		   		<li>Devuelve una cadena de caracteres</li>
-	 * 		   </ul>
+	 * @return
+	 *         <ul>
+	 *         <li>Devuelve una cadena de caracteres</li>
+	 *         </ul>
 	 */
 	public abstract String hacerTipo();
-	
-	/**Metodo abstracto que heredan todas las clases hijas
+
+	/**
+	 * Metodo abstracto que heredan todas las clases hijas
 	 * 
-	 * @return <ul>
-	 * 		   		<li>Devuelve una cadena de caracteres</li>
-	 * 		   </ul>
+	 * @return
+	 *         <ul>
+	 *         <li>Devuelve una cadena de caracteres</li>
+	 *         </ul>
 	 */
 	public abstract String cantarPresentacion();
 
@@ -115,8 +119,6 @@ public abstract class Agrupacion implements Comparable<Agrupacion> {
 	public void setTipoDisfraz(String tipoDisfraz) {
 		this.tipoDisfraz = tipoDisfraz;
 	}
-	
-	
 
 	public Integer getAgrupacionesTotales() {
 		return agrupacionesTotales;
@@ -125,30 +127,34 @@ public abstract class Agrupacion implements Comparable<Agrupacion> {
 	public void setAgrupacionesTotales(Integer agrupacionesTotales) {
 		this.agrupacionesTotales = agrupacionesTotales;
 	}
-	
+
 	/**
-	 * Metodo implementado de la interfaz Comparable para ordenar por defecto por nombre
-	 * @return <ul>
-	 * 		   		<li>Comparacion del nombre para su ordenacion</li>
-	 * 		   </ul>
+	 * Metodo implementado de la interfaz Comparable para ordenar por defecto por
+	 * nombre
+	 * 
+	 * @return
+	 *         <ul>
+	 *         <li>Comparacion del nombre para su ordenacion</li>
+	 *         </ul>
 	 */
 	@Override
 	public int compareTo(Agrupacion o) {
-		
-		return this.getNombre().compareTo(o.getNombre()) ;
+
+		return this.getNombre().compareTo(o.getNombre());
 	}
-	
+
 	/**
 	 * Metodo para mostrar por pantalla todos los atributos de la clase
 	 * 
-	 * @return <ul>
-	 * 		   		<li>Cadena con los atributos de la clase</li>
-	 * 		   </ul>
+	 * @return
+	 *         <ul>
+	 *         <li>Cadena con los atributos de la clase</li>
+	 *         </ul>
 	 */
 	@Override
 	public String toString() {
-		return "Nombre=" + nombre + ", Autor=" + autor + ", AutorM=" + autorMusica + ", AutorL=" + autorLetra + ", Tipo=" + tipoDisfraz;
+		return "Nombre=" + nombre + ", Autor=" + autor + ", AutorM=" + autorMusica + ", AutorL=" + autorLetra
+				+ ", Tipo=" + tipoDisfraz;
 	}
-	
-	
+
 }

@@ -31,18 +31,18 @@ public class Integrante {
 	private static Integer num = 0;
 
 	/**
-	 * Constructor por defecto
-	 * Aumenta el contador de numero de participantes
+	 * Constructor por defecto Aumenta el contador de numero de participantes
 	 */
 	public Integrante() {
 		setNumeroParticipante(num++);
 	}
-	
+
 	/**
-	 Constructor con 4 parametros
-	 * Crea objetos inetgrante, con nombre, edad y localidad
-	 * @param nombre <i>Nombre del Integrante</i>
-	 * @param edad <i>edad del Integrante</i>
+	 * Constructor con 4 parametros Crea objetos inetgrante, con nombre, edad y
+	 * localidad
+	 * 
+	 * @param nombre    <i>Nombre del Integrante</i>
+	 * @param edad      <i>edad del Integrante</i>
 	 * @param localidad <i>localidad del integrante</i>
 	 */
 	public Integrante(String nombre, Integer edad, String localidad) {
@@ -71,9 +71,10 @@ public class Integrante {
 	public Integer getEdad() {
 		return edad;
 	}
-	
+
 	/**
 	 * Metodo que asigna la edad si es mayor de 18
+	 * 
 	 * @param edad
 	 */
 	public void setEdad(Integer edad) {
@@ -90,20 +91,18 @@ public class Integrante {
 	public void setLocalidad(String localidad) {
 		this.localidad = localidad;
 	}
-	
+
 	/**
 	 * Metodo para mostrar por pantalla todos los atributos de la clase
 	 * 
-	 * @return <ul>
-	 * 		   		<li>Cadena con los atributos de la clase</li>
-	 * 		   </ul>
+	 * @return
+	 *         <ul>
+	 *         <li>Cadena con los atributos de la clase</li>
+	 *         </ul>
 	 */
 	@Override
 	public String toString() {
 		return "Integrante " + numeroParticipante + " Nombre=" + nombre + " Edad=" + edad + " Localidad=" + localidad;
 	}
 
-	
-	
-	
 }
