@@ -3,7 +3,8 @@ package model;
 /**
  * <h2>Clase Abstracta Agrupacion con la interfaz Comprable, se utiliza para 
  * crear agrupaciones</h2> 
- * @author UsuarioM
+ * @author JavierPintado
+ * @version 1.1
  *
  */
 public abstract class Agrupacion implements Comparable<Agrupacion> {
