@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Clase que hereda de la clase AgrupacionOficial, se
  * utiliza para crear Comparsas
  * @author JavierPintado
- *
+ * @version 1.1
  */
 public class Comparsa extends AgrupacionOficial {
 
