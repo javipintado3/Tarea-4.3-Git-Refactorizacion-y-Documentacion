@@ -2,4 +2,5 @@ controller
 model
 view
 view.agrupaciones
+view.concurso
 view.participantes
